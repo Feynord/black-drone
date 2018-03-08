@@ -19,20 +19,29 @@ header img {
     width: 100%;
     display: block;
 }
+
 nav {
-    width: 1000px;
-}
-a.menu {
-    display: inline-block;
-    width: 25%;
-    padding: 15px 20px;
-    color: brown;
-    text-decoration: none;
-    text-align: center;
+    overflow: hidden;
+    
 }
 
-a.menu:hover {
+nav a{
+    display: block;
+    width: 25%;
+    float: left;
+    color: cornsilk;
+    text-align: center;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 15px 30px;
+    font-size: 20px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    
+}
+nav a:hover {
     background-color: darkseagreen;
+    cursor: pointer;
 }
 
 .active {
@@ -45,6 +54,8 @@ article {
     padding: 0 20px;
 }
 
+
+}
 article h1 {
     font-size: 30px;
     text-align: center;
@@ -67,10 +78,32 @@ article p {
     line-height: 25px;
     font-size: 18px;
     padding: 15px 0;
-    
+
 }
 
-iframe{
+iframe {
     width: 100%;
+
+}
+
+footer {
+    height: 40px;
+    background-color: blueviolet;
+    color: aliceblue;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+@media (max-width:800px) {
+    nav a {
+        width: 50%;
+        font-size: 22px;
+    }
     
 }
+@media (max-width:500px) {
+    nav a {
+        width: 100%;
+    }
