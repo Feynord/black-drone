@@ -22,10 +22,10 @@ header img {
 
 nav {
     overflow: hidden;
-    
+
 }
 
-nav a{
+nav a {
     display: block;
     width: 25%;
     float: left;
@@ -37,8 +37,9 @@ nav a{
     font-size: 20px;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
-    
+
 }
+
 nav a:hover {
     background-color: darkseagreen;
     cursor: pointer;
@@ -55,7 +56,6 @@ article {
 }
 
 
-}
 article h1 {
     font-size: 30px;
     text-align: center;
@@ -96,13 +96,15 @@ footer {
 
 
 }
+
 @media (max-width:800px) {
     nav a {
         width: 50%;
         font-size: 22px;
     }
-    
+
 }
+
 @media (max-width:500px) {
     nav a {
         width: 100%;
