@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkviolet
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color:pink;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+a.menu {
+    display: inline-block;
+    width: 25%;
+    padding: 15px 30px;
+    color: brown;
+    text-decoration: none;
+    text-align: center;
+}
+    
+    
+   
